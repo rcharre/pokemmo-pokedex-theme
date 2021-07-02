@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+    <images file="../../res/monster-info/bg/bg.png" filter="nearest">
+        <area name="mi-bg" xywh="271,66,228,198"/>
+        <area name="mi-frame" xywh="*"/>
+        <grid name="mi-frame-grid" weightsX="1,1" weightsY="1,1,1">
+            <area xywh="0,0,270,33"/>
+            <area xywh="271,30,230,33"/>
+            <area xywh="0,33,270,231"/>
+            <alias ref="mi-bg"/>
+            <area xywh="0,264,270,52"/>
+            <area xywh="272,264,230,52"/>
+        </grid>
+    </images>
+
+    <theme name="monster-frame" ref="resizableframe">
+        <param name="background"><image>mi-frame-grid</image></param>
+    </theme>
+
+
+
+    <include filename="abilities.xml"/>
+    <include filename="contest.xml"/>
+    <include filename="data.xml"/>
+    <include filename="ev.xml"/>
+    <include filename="iv.xml"/>
+    <include filename="particles.xml"/>
+    <include filename="rubons.xml"/>
+    <include filename="stats.xml"/>
+    <include filename="summary.xml"/>
+</themes>

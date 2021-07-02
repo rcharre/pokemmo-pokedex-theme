@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+	<include filename="../default/theme.xml"/>
+
+	<include filename="gfx.xml"/>
+
+	<include filename="ui/monster-info/monster-info.xml"/>
+</themes>
