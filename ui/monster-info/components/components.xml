@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+    <include filename="abilities/abilities.xml" />
+    <include filename="fields/fields.xml" />
+    <include filename="progress-bar/progress-bar.xml" />
+    <include filename="symbols/symbols.xml" />
+</themes>

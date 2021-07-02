@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+    <images file="bg.png" filter="nearest">
+        <area name="mi-frame" xywh="*" />
+
+        <area name="mi-menu" xywh="0,0,272,33" />
+        <area name="mi-menu-right" xywh="272,0,227,33" />
+
+        <area name="mi-content" xywh="0,33,272,231" />
+        <area name="mi-bg" xywh="272,33,227,231" />
+
+        <area name="mi-footer-right" xywh="0,264,272,52" />
+        <area name="mi-footer-left" xywh="272,264,227,52" />
+
+        <grid name="mi-frame-grid" weightsX="1,1" weightsY="1,1,1">
+            <alias ref="mi-menu" />
+            <alias ref="mi-menu-right" />
+            <alias ref="mi-content" />
+            <alias ref="mi-bg" />
+            <alias ref="mi-footer-right" />
+            <alias ref="mi-footer-left" />
+        </grid>
+    </images>
+
+    <theme name="monster-frame" ref="resizableframe">
+        <param name="background">
+            <image>mi-frame-grid</image>
+        </param>
+    </theme>
+</themes>
